@@ -1,4 +1,4 @@
-﻿using WHEDU_OA_DATAMODEL;
+﻿using WHEDU_OA_MODELS;
 
 
 namespace WHEDU_OA_DAL
