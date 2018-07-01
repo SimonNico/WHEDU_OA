@@ -46,9 +46,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccountModel\UserOrgnazationMapping.cs" />
     <Compile Include="OAWorkFlowModels\DefineModels.cs" />
     <Compile Include="OAWorkFlowModels\DefineModelsMapping.cs" />
+    <Compile Include="OAWorkFlowModels\DefineNodes.cs" />
+    <Compile Include="OAWorkFlowModels\DefineNodesMapping.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AccountModel\UserOrgnazationModel.cs" />
+    <Compile Include="AccountModel\UserOrgnazationViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\WHEDU_OA_COMMONS\WHEDU_OA_COMMONS.csproj">

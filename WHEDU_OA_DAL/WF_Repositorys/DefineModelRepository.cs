@@ -9,6 +9,9 @@ using AopFrameWork;
 
 namespace WHEDU_OA_DAL.WF_Repositorys
 {
+    /// <summary>
+    /// 流程模板定义
+    /// </summary>
     [LogBeforeAdvice]
     [LogAfterAdvice]
     [AuditMehodInterceptor]
