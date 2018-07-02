@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountModel\UserOrgnazationMapping.cs" />
+    <Compile Include="OAWorkFlowModels\DefineBindingModel.cs" />
     <Compile Include="OAWorkFlowModels\DefineModels.cs" />
     <Compile Include="OAWorkFlowModels\DefineModelsMapping.cs" />
     <Compile Include="OAWorkFlowModels\DefineNodes.cs" />

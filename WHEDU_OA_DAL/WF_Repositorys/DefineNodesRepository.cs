@@ -88,6 +88,17 @@ namespace WHEDU_OA_DAL
                 return Repository.Update<DefineNodes>(db, dNode);
             }
         }
+
+        public int AddNondeModelList(List<DefineNodes> definemodellist)
+        {
+            if (definemodellist == null) throw new ArgumentNullException("definemodellist");
+            using (var dbcontextscope = _dbContextScopeFactory.Create())
+            {
+                var db = dbcontextscope.DbContexts.Get<OADbContext>();
+                return Repository.Add<DefineNodes>(db, definemodellist);
+            }
+        }
+
         private enum isAble
         {
             No,

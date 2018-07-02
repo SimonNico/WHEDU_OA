@@ -8,7 +8,7 @@ namespace WHEDU_OA_MODELS
     {
         public string MODEL_ID { get; set; }
 
-        public string VERSION_NO { get; set; }
+        public int VERSION_NO { get; set; }
 
         public string MODEL_NAME { get; set; }
 

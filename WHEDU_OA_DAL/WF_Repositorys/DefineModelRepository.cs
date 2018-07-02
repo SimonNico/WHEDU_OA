@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using WHEDU_OA_MODELS;
 using WHEDU_OA_COMMONS;
 using Unity.Attributes;
@@ -79,6 +80,16 @@ namespace WHEDU_OA_DAL.WF_Repositorys
                 {
                     return 0;
                 }
+            }
+        }
+
+        public DefineModels GetLastDefineModelByName(string m_name)
+        {
+            if (string.IsNullOrEmpty(m_name)) throw new ArgumentNullException("m_name");
+            using (var dbcontextscope = _dbContextScopeFactory.Create())
+            {
+                var db = dbcontextscope.DbContexts.Get<OADbContext>();
+                return Repository.GetMany<DefineModels>(db, p => p.MODEL_NAME.Equals(m_name)).OrderBy(p => p.VERSION_NO).FirstOrDefault();
             }
         }
     }

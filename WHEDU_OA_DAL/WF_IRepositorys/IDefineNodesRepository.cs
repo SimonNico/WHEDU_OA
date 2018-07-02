@@ -7,7 +7,7 @@ using WHEDU_OA_MODELS;
 
 namespace WHEDU_OA_DAL
 {
-    interface IDefineNodesRepository
+    public interface IDefineNodesRepository
     {
         DefineNodes GetNodesById(string nodeid);
 
@@ -16,6 +16,8 @@ namespace WHEDU_OA_DAL
         int UpdateNodeModel(DefineNodes dNode);
 
         int AbateNodelModel(DefineNodes dNode);
+
+        int AddNondeModelList(List<DefineNodes> definemodellist);
 
     }
 }
