@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WHEDU_OA_MODELS
+namespace WHEDU_WF_ENGINE.Models
 {
     [Table("t_wf_re_node_defined")]
     public class DefineNodes
@@ -35,5 +35,9 @@ namespace WHEDU_OA_MODELS
         public DateTime LAST_UPDATE_TIME { get; set; }
 
         public string DEALER_SQL_EXC { get; set; }
+
+        public string IS_REJECT { get; set; }
+
+        public string ROLE_NAME { get; set; }
     }
 }

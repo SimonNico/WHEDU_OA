@@ -99,11 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WF_IRepositorys\IDefineModelRepository.cs" />
-    <Compile Include="WF_IRepositorys\IDefineNodesRepository.cs" />
     <Compile Include="WF_IRepositorys\IOrgnazationsRepository.cs" />
-    <Compile Include="WF_Repositorys\DefineModelRepository.cs" />
-    <Compile Include="WF_Repositorys\DefineNodesRepository.cs" />
     <Compile Include="WF_Repositorys\OrgnazationRepository.cs" />
   </ItemGroup>
   <ItemGroup />

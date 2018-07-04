@@ -1,7 +1,7 @@
-﻿using WHEDU_OA_MODELS;
+﻿using WHEDU_WF_ENGINE.Models;
 
 
-namespace WHEDU_OA_DAL
+namespace  WHEDU_WF_ENGINE.Interface
 {
     public interface IDefineModelRepository
     {

@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WHEDU_OA_MODELS;
+﻿using WWHEDU_WF_ENGINE.Models;
 
 
-namespace WHEDU_OA_BLL
+namespace WWHEDU_WF_ENGINE.Interface
 {
-   public  interface IWF_Define
+    public  interface IWF_Define
     {
         int DefineModelAndNodes(DefineBindingModel dmodel,string userid);
     }

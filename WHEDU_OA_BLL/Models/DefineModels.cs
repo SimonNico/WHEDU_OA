@@ -1,7 +1,7 @@
 ﻿using System;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WHEDU_OA_MODELS
+namespace WHEDU_WF_ENGINE.Models
 {
     [Table("t_wf_re_model")]
    public class DefineModels

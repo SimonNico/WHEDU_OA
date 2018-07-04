@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WHEDU_OA_MODELS;
+﻿using System.Collections.Generic;
+using WHEDU_WF_ENGINE.Models;
 
-namespace WHEDU_OA_DAL
+
+namespace WHEDU_WF_ENGINE.Interface
 {
     public interface IDefineNodesRepository
     {

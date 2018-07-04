@@ -60,6 +60,7 @@
   <ItemGroup>
     <Compile Include="AutoMapHelper.cs" />
     <Compile Include="EDUContext.cs" />
+    <Compile Include="Enums\Enums.cs" />
     <Compile Include="Interfaces\ICreateParametersFromProperties.cs" />
     <Compile Include="Interfaces\IRepository.cs" />
     <Compile Include="Interfaces\IStoredProcedure.cs" />

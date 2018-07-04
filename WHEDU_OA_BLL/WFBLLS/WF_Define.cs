@@ -1,15 +1,13 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using WHEDU_OA_MODELS;
-using WHEDU_OA_DAL;
 using Unity.Attributes;
+using WHEDU_WF_ENGINE.Interface;
+using WHEDU_WF_ENGINE.Models;
+using WWHEDU_WF_ENGINE.Models;
+using Newtonsoft.Json;
 
-namespace WHEDU_OA_BLL
+namespace WHEDU_WF_ENGINE
 {
-    public class WF_Define : IWF_Define
+    public class WF_Define : WWHEDU_WF_ENGINE.Interface.IWF_Define
     {
         [Dependency]
         private IDefineModelRepository DefineModelRepository { get; set; }
@@ -18,6 +16,7 @@ namespace WHEDU_OA_BLL
 
         public int DefineModelAndNodes(DefineBindingModel dmodel, string userid)
         {
+            
             DefineModels model = DefineModelRepository.GetLastDefineModelByName(dmodel.Model_Name);
             if (model == null)
             {

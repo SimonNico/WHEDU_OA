@@ -1,14 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using WHEDU_OA_MODELS;
+using WHEDU_WF_ENGINE.Models;
 using WHEDU_OA_COMMONS;
 using Unity.Attributes;
 using Mehdime.Entity;
 using AopFrameWork;
+using WHEDU_WF_ENGINE.Interface;
 
 
-namespace WHEDU_OA_DAL.WF_Repositorys
+namespace WHEDU_WF_ENGINE
 {
     /// <summary>
     /// 流程模板定义
@@ -41,7 +42,6 @@ namespace WHEDU_OA_DAL.WF_Repositorys
 
             }
         }
-
         public int AddDefineModel(DefineModels dmodel)
         {
             if (dmodel == null) throw new ArgumentNullException("dmodel");

@@ -373,6 +373,16 @@
     <None Include="Project_Readme.html" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WHEDU_OA_COMMONS\WHEDU_OA_COMMONS.csproj">
+      <Project>{337723c9-bf0a-4206-a415-6a206dffd52c}</Project>
+      <Name>WHEDU_OA_COMMONS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WHEDU_OA_DAL\WHEDU_OA_DAL.csproj">
+      <Project>{391e28ae-f11e-4ffa-a837-1ba4ac1a541a}</Project>
+      <Name>WHEDU_OA_DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

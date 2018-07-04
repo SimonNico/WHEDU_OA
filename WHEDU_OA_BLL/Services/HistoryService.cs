@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WHEDU_OA_BLL
+namespace WHEDU_WF_ENGINE
 {
-    public class Class1
+    public  static class HistoryService
     {
     }
 }
