@@ -6,7 +6,7 @@ using WHEDU_OA_COMMONS;
 using Unity.Attributes;
 using Mehdime.Entity;
 using AopFrameWork;
-using WHEDU_WF_ENGINE.Interface;
+using WHEDU_WF_ENGINE.Interfaces;
 
 
 namespace WHEDU_WF_ENGINE

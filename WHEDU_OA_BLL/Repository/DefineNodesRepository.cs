@@ -5,7 +5,7 @@ using AopFrameWork;
 using Unity.Attributes;
 using WHEDU_OA_COMMONS;
 using Mehdime.Entity;
-using WHEDU_WF_ENGINE.Interface;
+using WHEDU_WF_ENGINE.Interfaces;
 
 namespace WHEDU_OA_DAL
 {

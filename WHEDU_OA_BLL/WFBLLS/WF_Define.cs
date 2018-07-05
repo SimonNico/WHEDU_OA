@@ -1,13 +1,13 @@
 ﻿using System;
 using Unity.Attributes;
-using WHEDU_WF_ENGINE.Interface;
+using WHEDU_WF_ENGINE.Interfaces;
 using WHEDU_WF_ENGINE.Models;
 using WWHEDU_WF_ENGINE.Models;
 using Newtonsoft.Json;
 
 namespace WHEDU_WF_ENGINE
 {
-    public class WF_Define : WWHEDU_WF_ENGINE.Interface.IWF_Define
+    public class WF_Define : WWHEDU_WF_ENGINE.Interfaces.IWF_Define
     {
         [Dependency]
         private IDefineModelRepository DefineModelRepository { get; set; }

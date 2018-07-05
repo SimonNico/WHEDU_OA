@@ -2,7 +2,7 @@
 using WHEDU_WF_ENGINE.Models;
 
 
-namespace WHEDU_WF_ENGINE.Interface
+namespace WHEDU_WF_ENGINE.Interfaces
 {
     public interface IDefineNodesRepository
     {

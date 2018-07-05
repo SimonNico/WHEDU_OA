@@ -36,8 +36,6 @@ namespace WHEDU_WF_ENGINE.Models
 
         public string DEALER_SQL_EXC { get; set; }
 
-        public string IS_REJECT { get; set; }
-
         public string ROLE_NAME { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
 
-namespace WWHEDU_WF_ENGINE.Models
+namespace WHEDU_WF_ENGINE.Models
 {
 
    public class DefineBindingModel
